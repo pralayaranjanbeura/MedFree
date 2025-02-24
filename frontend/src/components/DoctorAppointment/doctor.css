@@ -1,0 +1,88 @@
+.doctor-item{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    column-gap: 50px;
+     row-gap: 27px;
+    margin: 30px 180px;
+    
+  }
+  
+  @media screen  and (max-width: 1000px) {
+    .doctor-item{
+      grid-template-columns: repeat(1,1fr);
+      margin: 20px;
+    }
+  }
+
+  .one-item {
+    box-shadow: 0 0 10px 4px rgba(0,0,0,0.1);
+    padding: 20px;
+  }
+.doctor-detail{
+  color: black;
+  display: flex;
+  margin-bottom: -8px;
+}
+
+
+  .fir-img{
+       width: 45px;
+       height: 45px;
+  }
+
+  .last-img{
+    width: 30px;
+    height: 30px;
+    margin-left: 70px;
+   
+  }
+  .inner-detail{
+    margin-bottom: 10px;
+    border-bottom: 2px;
+    border-color: black;
+    padding: 0px 25px;
+  }
+  .last-para{
+    color: black;
+    margin-left: 50px;
+  }
+
+  .shade-des{
+    box-shadow: 0 0 10px 4px rgba(0,0,0,0.1);
+    padding: 14px;
+  }
+  .btnn2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .btnn2 button{
+    background-color: #0dba08;
+    color: white;
+    padding: 13px 30px;
+    font-weight: 400;
+    font-size: 16px;
+    border-radius: 8px;
+    text-align: center;
+    
+    border-style: none;
+  }
+  .btnn2 button:hover{
+    color: black;
+     
+  }
+
+  
+
+  .appointment{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 35px;
+    row-gap: 30px; 
+    padding: 2rem;
+    margin: 0px 330px;
+  }
+
+  .close{
+    margin-top: -10px !important;
+  }
