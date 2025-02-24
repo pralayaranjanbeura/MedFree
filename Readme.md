@@ -74,8 +74,5 @@
 ## Contributing
 We welcome contributions! Feel free to submit pull requests or open issues.
 
-## License
-This project is licensed under the MIT License.
-
 ---
 📌 **Project by [Pralaya Ranjan Beura](https://github.com/pralayaranjanbeura)**
